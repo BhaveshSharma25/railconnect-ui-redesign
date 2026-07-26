@@ -8,7 +8,7 @@ import Ticket from "./pages/Ticket";
 import Profile from "./pages/Profile";
 import Login from "./pages/Login";
 import SeatSelection from "./pages/SeatSelection";
-import Payment from "./pages/Payment";
+import payment from "./pages/payment";
 import TrainDetails from "./pages/TrainDetails";
 import LiveStatus from "./pages/LiveStatus";
 import PnrStatus from "./pages/PnrStatus";
@@ -27,7 +27,7 @@ function App() {
       <Route path="/profile" element={<Profile />} />
       <Route path="/login" element={<Login />} />
       <Route path="/seat-selection" element={<SeatSelection />} />
-      <Route path="/payment" element={<Payment />} />
+      <Route path="/payment" element={<payment />} />
       <Route path="/train-details" element={<TrainDetails />} />
       <Route path="/live-status" element={<LiveStatus />} />
       <Route path="/pnr-status" element={<PnrStatus />} />
